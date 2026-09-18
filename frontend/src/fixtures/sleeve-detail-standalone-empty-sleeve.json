@@ -1,0 +1,173 @@
+{
+  "capital": {
+    "leverage": "1",
+    "max_position_fraction": "0.20",
+    "max_positions": 8,
+    "settlement_model": "instant",
+    "starting_capital": "25000"
+  },
+  "cash": {
+    "as_of": null,
+    "available": false,
+    "buying_power": null,
+    "message": "No paper state is recorded for this sleeve yet. Positions and cash appear after its first valuation cycle; nothing is created by viewing it.",
+    "opened_at": null,
+    "realized_pnl": null,
+    "settled_cash": null,
+    "starting_capital": null,
+    "total_cash": null,
+    "unsettled_cash": null
+  },
+  "contract_version": "1.0",
+  "cycles": {
+    "available": true,
+    "message": "No valuation cycles are recorded for this sleeve yet.",
+    "page": {
+      "available": 0,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "truncated": false
+    },
+    "rows": []
+  },
+  "equity_history": {
+    "available": false,
+    "message": "No equity values have been recorded for this sleeve yet.",
+    "page": null,
+    "points": [],
+    "source": null
+  },
+  "generated_at": "2026-08-12T21:30:00Z",
+  "identity": {
+    "cohort_id": null,
+    "created_at": "2026-03-02T14:00:00Z",
+    "lifecycle": {
+      "actionable": false,
+      "historical": false,
+      "label": "",
+      "lifecycle": "active",
+      "reason": "",
+      "reference": "",
+      "superseded_by": null
+    },
+    "name": "standalone-new",
+    "namespace_id": "425ec6fac0b951e21bd4c2827515a3e02414fd07f993db919ba9922bf38bb098",
+    "original_name": "standalone-new",
+    "scope": "standalone",
+    "sleeve_id": "ec98099b3709b262392fc7fffa52fa75fea4499ad9a5cd460b7cc1a1b4daf399",
+    "strategy": "trend"
+  },
+  "lineage": {
+    "cohort_id": null,
+    "cohort_start_session": null,
+    "configuration_hash": "896ec9efa8d67e46328089753e5b5f20cd412c1e498b16edd14367c7f02e6e9c",
+    "namespace_id": "425ec6fac0b951e21bd4c2827515a3e02414fd07f993db919ba9922bf38bb098",
+    "notes": [],
+    "run_ids": [],
+    "snapshot_ids": {},
+    "strategy_hashes": []
+  },
+  "observations": {
+    "available": true,
+    "message": "No official observations are recorded for this sleeve yet.",
+    "page": {
+      "available": 0,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "truncated": false
+    },
+    "rows": []
+  },
+  "performance": {
+    "as_of": null,
+    "available": false,
+    "cycles": 0,
+    "first_recorded_at": null,
+    "latest_value": null,
+    "max_drawdown_pct": null,
+    "message": "This sleeve has recorded no valuation cycles yet, so it has no performance history. This is not a zero return.",
+    "realized_pnl": null,
+    "sharpe": null,
+    "starting_capital": null,
+    "total_return_pct": null,
+    "trades_filled": 0
+  },
+  "positions": {
+    "as_of": null,
+    "available": false,
+    "mark_note": "No current mark is recorded for this position, and this view never requests a quote. Cost basis is exact; market value and unrealized P&L are unavailable.",
+    "message": "No paper state is recorded for this sleeve yet. Positions and cash appear after its first valuation cycle; nothing is created by viewing it.",
+    "rows": [],
+    "total_cost_basis": null
+  },
+  "read_only": true,
+  "recorded_valuation": {
+    "as_of": null,
+    "available": false,
+    "benchmark_value": null,
+    "cash": null,
+    "message": "No valuation has been recorded for this sleeve yet, so it has no equity, return, or P&L to report.",
+    "positions_value": null,
+    "realized_pnl": null,
+    "return_pct": null,
+    "return_pct_basis": null,
+    "session_date": null,
+    "source": null,
+    "status": null,
+    "total_equity": null,
+    "unrealized_pnl": null
+  },
+  "runs": {
+    "available": false,
+    "message": "This sleeve is not a member of an official cohort, so no scheduled cohort runs reference it.",
+    "page": null,
+    "rows": []
+  },
+  "simulated_orders": {
+    "available": false,
+    "message": "No paper state is recorded for this sleeve yet. Positions and cash appear after its first valuation cycle; nothing is created by viewing it.",
+    "page": null,
+    "rows": []
+  },
+  "strategy": {
+    "available": true,
+    "benchmark_symbol_or_sleeve": "bench-spy",
+    "configuration_hash": "896ec9efa8d67e46328089753e5b5f20cd412c1e498b16edd14367c7f02e6e9c",
+    "data_requirements": [
+      "daily-bars",
+      "quotes"
+    ],
+    "decision_frequency": "daily",
+    "decision_time": "16:10",
+    "factor": "",
+    "implementation_name": "trend",
+    "leverage_allowed": false,
+    "long_only": true,
+    "message": null,
+    "parameters": {
+      "lookback_days": 90,
+      "max_positions": 12,
+      "rebalance": "weekly",
+      "sleeve": "standalone-new"
+    },
+    "reproducible": true,
+    "strategy": "trend",
+    "strategy_id": "trend-v1",
+    "strategy_version": "1.0.0",
+    "universe": [
+      "SPY",
+      "QQQ",
+      "IWM"
+    ],
+    "universe_definition": {
+      "preset": "mega-cap"
+    }
+  },
+  "warnings": [
+    "No paper state is recorded for this sleeve yet. Positions and cash appear after its first valuation cycle; nothing is created by viewing it."
+  ]
+}

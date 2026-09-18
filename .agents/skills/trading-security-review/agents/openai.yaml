@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trading Security Review"
+  short_description: "Findings-only security review of trading-critical changes"
+  default_prompt: "Use $trading-security-review to security-review the selected changes without fixing them."

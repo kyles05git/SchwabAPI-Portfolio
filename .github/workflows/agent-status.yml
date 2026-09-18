@@ -1,0 +1,64 @@
+name: Agent status
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/agent_status.py
+      - .github/workflows/agent-status.yml
+  issues:
+    types: [opened, labeled, unlabeled, closed, reopened]
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  synchronize:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Synchronize labels
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/agent_status.py --repo "$GITHUB_REPOSITORY" sync-labels
+      - name: Validate statuses
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/agent_status.py --repo "$GITHUB_REPOSITORY" validate --all
+
+  reconcile:
+    if: github.event_name == 'issues' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reconcile trusted event
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: >-
+          python scripts/agent_status.py
+          --repo "$GITHUB_REPOSITORY"
+          reconcile-event
+          --event-path "$GITHUB_EVENT_PATH"
+      - name: Validate statuses
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/agent_status.py --repo "$GITHUB_REPOSITORY" validate --all

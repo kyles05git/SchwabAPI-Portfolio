@@ -1,0 +1,313 @@
+{
+  "capital": {
+    "leverage": "1",
+    "max_position_fraction": "0.15",
+    "max_positions": 12,
+    "settlement_model": "t+1",
+    "starting_capital": "10000"
+  },
+  "cash": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "buying_power": "5289.55",
+    "message": null,
+    "opened_at": "2026-07-24T15:00:00Z",
+    "realized_pnl": "0",
+    "settled_cash": "5289.55",
+    "starting_capital": "10000",
+    "total_cash": "5289.55",
+    "unsettled_cash": "0"
+  },
+  "contract_version": "1.0",
+  "cycles": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 1,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-07-27T20:15:00Z",
+        "cash": "5289.55",
+        "cycle_id": 1,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "4691.85",
+        "realized_pnl": "0",
+        "return_pct": "-0.19",
+        "strategy": "trend",
+        "total_value": "9981.40",
+        "unrealized_pnl": "-18.60"
+      }
+    ]
+  },
+  "equity_history": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 1,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "truncated": false
+    },
+    "points": [
+      {
+        "as_of": "2026-07-27T20:15:00Z",
+        "session_date": "2026-07-27",
+        "source": "official-observation",
+        "total_value": "9981.40"
+      }
+    ],
+    "source": "official-observation"
+  },
+  "generated_at": "2026-08-12T21:30:00Z",
+  "identity": {
+    "cohort_id": "paper-first-2026-07-27",
+    "created_at": "2026-07-24T15:00:00Z",
+    "lifecycle": {
+      "actionable": false,
+      "historical": true,
+      "label": "Superseded \u2014 partial incident, do not run",
+      "lifecycle": "superseded",
+      "reason": "Session 1 recorded a terminal partial (2 of 7 members) on stale daily bars. The collection restarted as a new cohort; these records are kept unchanged as incident evidence.",
+      "reference": "docs/incidents/2026-07-27-paper-first-cohort-daily-bars-stale.md",
+      "superseded_by": "paper-first-2026-07-28"
+    },
+    "name": "trend-large",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "original_name": "trend-large",
+    "scope": "official-cohort",
+    "sleeve_id": "9a8bf9b65f49c516dcae1ac543aaabab152015be6a882a1d64ab108875d77386",
+    "strategy": "trend"
+  },
+  "lineage": {
+    "cohort_id": "paper-first-2026-07-27",
+    "cohort_start_session": "2026-07-27",
+    "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "notes": [],
+    "run_ids": [
+      "run-paper-first-2026-07-27-2026-07-27"
+    ],
+    "snapshot_ids": {
+      "cohort_snapshot": "snap-2026-07-27",
+      "quotes": "quote-2026-07-27"
+    },
+    "strategy_hashes": [
+      "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696"
+    ]
+  },
+  "observations": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 1,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-07-27T20:15:00Z",
+        "benchmark_value": null,
+        "decision_time": "2026-07-27T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 3,
+        "num_positions": 7,
+        "num_rejected": 0,
+        "quote_coverage": "0.72",
+        "readiness_ready": false,
+        "readiness_reasons": [
+          "daily_bars:stale"
+        ],
+        "return_pct": null,
+        "run_id": "run-paper-first-2026-07-27-2026-07-27",
+        "session_date": "2026-07-27",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-27",
+          "quotes": "quote-2026-07-27"
+        },
+        "status": "partial",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": null,
+        "turnover": "149"
+      }
+    ]
+  },
+  "performance": {
+    "as_of": "2026-07-27T20:15:00Z",
+    "available": true,
+    "cycles": 1,
+    "first_recorded_at": "2026-07-27T20:15:00Z",
+    "latest_value": "9981.40",
+    "max_drawdown_pct": "0.19",
+    "message": null,
+    "realized_pnl": "0",
+    "sharpe": null,
+    "starting_capital": "10000",
+    "total_return_pct": "-0.19",
+    "trades_filled": 2
+  },
+  "positions": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "mark_note": "No current mark is recorded for this position, and this view never requests a quote. Cost basis is exact; market value and unrealized P&L are unavailable.",
+    "message": null,
+    "rows": [
+      {
+        "average_cost": "112.8000",
+        "cost_basis": "2368.8000",
+        "cost_basis_weight": "0.5018590904757364858423109925",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 21,
+        "symbol": "XOM",
+        "unrealized_pnl": null
+      },
+      {
+        "average_cost": "71.2500",
+        "cost_basis": "2351.2500",
+        "cost_basis_weight": "0.4981409095242635141576890075",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 33,
+        "symbol": "KO",
+        "unrealized_pnl": null
+      }
+    ],
+    "total_cost_basis": "4720.0500"
+  },
+  "read_only": true,
+  "recorded_valuation": {
+    "as_of": "2026-07-27T20:15:00Z",
+    "available": true,
+    "benchmark_value": null,
+    "cash": null,
+    "message": "The most recent recorded valuation is not a complete official observation. Its status is shown beside it.",
+    "positions_value": null,
+    "realized_pnl": null,
+    "return_pct": "-0.0019",
+    "return_pct_basis": "ratio",
+    "session_date": "2026-07-27",
+    "source": "official-observation",
+    "status": "partial",
+    "total_equity": "9981.40",
+    "unrealized_pnl": null
+  },
+  "runs": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 1,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "completed_at": "2026-07-27T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-27",
+          "quotes": "quote-2026-07-27"
+        },
+        "member_completed_at": null,
+        "member_error_code": "data_deadline_exceeded",
+        "member_error_message": "daily bars for the session were stale past the retry deadline",
+        "member_started_at": "2026-07-27T20:10:00Z",
+        "member_status": "failed",
+        "quote_snapshot_id": "quote-2026-07-27",
+        "run_id": "run-paper-first-2026-07-27-2026-07-27",
+        "run_key": "paper-first-2026-07-27|2026-07-27",
+        "scheduled_for": "2026-07-27",
+        "session_id": "XNYS|2026-07-27",
+        "snapshot_id": "snap-2026-07-27",
+        "started_at": "2026-07-27T20:10:00Z",
+        "status": "partial"
+      }
+    ]
+  },
+  "simulated_orders": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 2,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 2,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-07-27T20:15:00Z",
+        "fill_price": "71.2500",
+        "filled_at": "2026-07-27T20:15:00Z",
+        "limit_price": "71.5000",
+        "paper_order_id": 2,
+        "quantity": 33,
+        "reason": null,
+        "side": "BUY",
+        "status": "filled",
+        "symbol": "KO"
+      },
+      {
+        "as_of": "2026-07-27T20:15:00Z",
+        "fill_price": "112.8000",
+        "filled_at": "2026-07-27T20:15:00Z",
+        "limit_price": "113.0000",
+        "paper_order_id": 1,
+        "quantity": 21,
+        "reason": null,
+        "side": "BUY",
+        "status": "filled",
+        "symbol": "XOM"
+      }
+    ]
+  },
+  "strategy": {
+    "available": true,
+    "benchmark_symbol_or_sleeve": "bench-spy",
+    "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+    "data_requirements": [
+      "daily-bars",
+      "quotes"
+    ],
+    "decision_frequency": "daily",
+    "decision_time": "16:10",
+    "factor": "",
+    "implementation_name": "trend",
+    "leverage_allowed": false,
+    "long_only": true,
+    "message": null,
+    "parameters": {
+      "lookback_days": 90,
+      "max_positions": 12,
+      "rebalance": "weekly",
+      "sleeve": "trend-large"
+    },
+    "reproducible": true,
+    "strategy": "trend",
+    "strategy_id": "trend-v1",
+    "strategy_version": "1.0.0",
+    "universe": [],
+    "universe_definition": {
+      "preset": "mega-cap"
+    }
+  },
+  "warnings": [
+    "Superseded \u2014 partial incident, do not run. The record is shown for review only and offers no actions."
+  ]
+}

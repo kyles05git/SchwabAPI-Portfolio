@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dashboard QA"
+  short_description: "Report-only QA of the local dashboard on offline fixtures"
+  default_prompt: "Use $dashboard-qa to test the local dashboard and report findings without fixing anything."

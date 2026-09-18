@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quant Research Review"
+  short_description: "Findings-only scientific review of strategy research and ML models"
+  default_prompt: "Use $quant-research-review to review the scientific validity of the selected strategy research without authorizing live trading or claiming persistent alpha."

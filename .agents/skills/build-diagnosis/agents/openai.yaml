@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Diagnosis"
+  short_description: "Find the first causal lint, type, test, or build failure"
+  default_prompt: "Use $build-diagnosis to diagnose the failing check without suppressing it."

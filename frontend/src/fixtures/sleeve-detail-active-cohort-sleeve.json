@@ -1,0 +1,591 @@
+{
+  "capital": {
+    "leverage": "1",
+    "max_position_fraction": "0.15",
+    "max_positions": 12,
+    "settlement_model": "t+1",
+    "starting_capital": "10000"
+  },
+  "cash": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "buying_power": "2841.55",
+    "message": null,
+    "opened_at": "2026-07-24T15:00:00Z",
+    "realized_pnl": "64.20",
+    "settled_cash": "2841.55",
+    "starting_capital": "10000",
+    "total_cash": "3260.45",
+    "unsettled_cash": "418.90"
+  },
+  "contract_version": "1.0",
+  "cycles": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 5,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 5,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-08-03T20:15:00Z",
+        "cash": "2841.55",
+        "cycle_id": 5,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "6893.15",
+        "realized_pnl": "64.20",
+        "return_pct": "1.54",
+        "strategy": "trend",
+        "total_value": "10153.60",
+        "unrealized_pnl": "52.10"
+      },
+      {
+        "as_of": "2026-07-31T20:15:00Z",
+        "cash": "2841.55",
+        "cycle_id": 4,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "6854.75",
+        "realized_pnl": "64.20",
+        "return_pct": "1.54",
+        "strategy": "trend",
+        "total_value": "10115.20",
+        "unrealized_pnl": "52.10"
+      },
+      {
+        "as_of": "2026-07-30T20:15:00Z",
+        "cash": "2841.55",
+        "cycle_id": 3,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "6816.35",
+        "realized_pnl": "64.20",
+        "return_pct": "1.54",
+        "strategy": "trend",
+        "total_value": "10076.80",
+        "unrealized_pnl": "52.10"
+      },
+      {
+        "as_of": "2026-07-29T20:15:00Z",
+        "cash": "2841.55",
+        "cycle_id": 2,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "6777.95",
+        "realized_pnl": "64.20",
+        "return_pct": "1.54",
+        "strategy": "trend",
+        "total_value": "10038.40",
+        "unrealized_pnl": "52.10"
+      },
+      {
+        "as_of": "2026-07-28T20:15:00Z",
+        "cash": "2841.55",
+        "cycle_id": 1,
+        "num_filled": 2,
+        "num_proposals": 3,
+        "num_rejected": 1,
+        "positions_value": "6739.55",
+        "realized_pnl": "64.20",
+        "return_pct": "1.54",
+        "strategy": "trend",
+        "total_value": "10000.00",
+        "unrealized_pnl": "52.10"
+      }
+    ]
+  },
+  "equity_history": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 5,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 5,
+      "truncated": false
+    },
+    "points": [
+      {
+        "as_of": "2026-07-28T20:15:00Z",
+        "session_date": "2026-07-28",
+        "source": "official-observation",
+        "total_value": "10000.00"
+      },
+      {
+        "as_of": "2026-07-29T20:15:00Z",
+        "session_date": "2026-07-29",
+        "source": "official-observation",
+        "total_value": "10038.40"
+      },
+      {
+        "as_of": "2026-07-30T20:15:00Z",
+        "session_date": "2026-07-30",
+        "source": "official-observation",
+        "total_value": "10076.80"
+      },
+      {
+        "as_of": "2026-07-31T20:15:00Z",
+        "session_date": "2026-07-31",
+        "source": "official-observation",
+        "total_value": "10115.20"
+      },
+      {
+        "as_of": "2026-08-03T20:15:00Z",
+        "session_date": "2026-08-03",
+        "source": "official-observation",
+        "total_value": "10153.60"
+      }
+    ],
+    "source": "official-observation"
+  },
+  "generated_at": "2026-08-12T21:30:00Z",
+  "identity": {
+    "cohort_id": "paper-first-2026-07-28",
+    "created_at": "2026-07-24T15:00:00Z",
+    "lifecycle": {
+      "actionable": false,
+      "historical": false,
+      "label": "",
+      "lifecycle": "active",
+      "reason": "",
+      "reference": "",
+      "superseded_by": null
+    },
+    "name": "trend-large",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "original_name": "trend-large",
+    "scope": "official-cohort",
+    "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+    "strategy": "trend"
+  },
+  "lineage": {
+    "cohort_id": "paper-first-2026-07-28",
+    "cohort_start_session": "2026-07-28",
+    "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "notes": [],
+    "run_ids": [
+      "run-paper-first-2026-07-28-2026-08-03",
+      "run-paper-first-2026-07-28-2026-07-31",
+      "run-paper-first-2026-07-28-2026-07-30",
+      "run-paper-first-2026-07-28-2026-07-29",
+      "run-paper-first-2026-07-28-2026-07-28"
+    ],
+    "snapshot_ids": {
+      "cohort_snapshot": "snap-2026-08-03",
+      "quotes": "quote-2026-08-03"
+    },
+    "strategy_hashes": [
+      "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696"
+    ]
+  },
+  "observations": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 5,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 5,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-08-03T20:15:00Z",
+        "benchmark_value": "10252.51",
+        "decision_time": "2026-08-03T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 3,
+        "num_positions": 7,
+        "num_rejected": 1,
+        "quote_coverage": "1.00",
+        "readiness_ready": true,
+        "readiness_reasons": [],
+        "return_pct": "0.004",
+        "run_id": "run-paper-first-2026-07-28-2026-08-03",
+        "session_date": "2026-08-03",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-03",
+          "quotes": "quote-2026-08-03"
+        },
+        "status": "official",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": "10200.00",
+        "turnover": "149"
+      },
+      {
+        "as_of": "2026-07-31T20:15:00Z",
+        "benchmark_value": "10160.96",
+        "decision_time": "2026-07-31T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 2,
+        "num_positions": 7,
+        "num_rejected": 0,
+        "quote_coverage": "1.00",
+        "readiness_ready": true,
+        "readiness_reasons": [],
+        "return_pct": "0.007",
+        "run_id": "run-paper-first-2026-07-28-2026-07-31",
+        "session_date": "2026-07-31",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-31",
+          "quotes": "quote-2026-07-31"
+        },
+        "status": "official",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": "10280.00",
+        "turnover": "149"
+      },
+      {
+        "as_of": "2026-07-30T20:15:00Z",
+        "benchmark_value": "10090.27",
+        "decision_time": "2026-07-30T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 5,
+        "num_positions": 7,
+        "num_rejected": 2,
+        "quote_coverage": "1.00",
+        "readiness_ready": true,
+        "readiness_reasons": [],
+        "return_pct": "0.0035",
+        "run_id": "run-paper-first-2026-07-28-2026-07-30",
+        "session_date": "2026-07-30",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-30",
+          "quotes": "quote-2026-07-30"
+        },
+        "status": "official",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": "10105.00",
+        "turnover": "149"
+      },
+      {
+        "as_of": "2026-07-29T20:15:00Z",
+        "benchmark_value": "10040.04",
+        "decision_time": "2026-07-29T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 4,
+        "num_positions": 7,
+        "num_rejected": 1,
+        "quote_coverage": "1.00",
+        "readiness_ready": true,
+        "readiness_reasons": [],
+        "return_pct": "0.0065",
+        "run_id": "run-paper-first-2026-07-28-2026-07-29",
+        "session_date": "2026-07-29",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-29",
+          "quotes": "quote-2026-07-29"
+        },
+        "status": "official",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": "10130.00",
+        "turnover": "149"
+      },
+      {
+        "as_of": "2026-07-28T20:15:00Z",
+        "benchmark_value": "10010.00",
+        "decision_time": "2026-07-28T20:10:00Z",
+        "exposure": "0.70",
+        "modeled_cost": "1.15",
+        "num_filled": 3,
+        "num_positions": 7,
+        "num_rejected": 0,
+        "quote_coverage": "1.00",
+        "readiness_ready": true,
+        "readiness_reasons": [],
+        "return_pct": "0.003",
+        "run_id": "run-paper-first-2026-07-28-2026-07-28",
+        "session_date": "2026-07-28",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-28",
+          "quotes": "quote-2026-07-28"
+        },
+        "status": "official",
+        "strategy_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "total_value": "10030.00",
+        "turnover": "149"
+      }
+    ]
+  },
+  "performance": {
+    "as_of": "2026-08-03T20:15:00Z",
+    "available": true,
+    "cycles": 5,
+    "first_recorded_at": "2026-07-28T20:15:00Z",
+    "latest_value": "10153.60",
+    "max_drawdown_pct": "0.62",
+    "message": null,
+    "realized_pnl": "64.20",
+    "sharpe": "1.24",
+    "starting_capital": "10000",
+    "total_return_pct": "1.54",
+    "trades_filled": 11
+  },
+  "positions": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "mark_note": "No current mark is recorded for this position, and this view never requests a quote. Cost basis is exact; market value and unrealized P&L are unavailable.",
+    "message": null,
+    "rows": [
+      {
+        "average_cost": "402.1500",
+        "cost_basis": "4825.8000",
+        "cost_basis_weight": "0.6616667123700880247895357446",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 12,
+        "symbol": "MSFT",
+        "unrealized_pnl": null
+      },
+      {
+        "average_cost": "221.4000",
+        "cost_basis": "1992.6000",
+        "cost_basis_weight": "0.2732059121945868867743439274",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 9,
+        "symbol": "AAPL",
+        "unrealized_pnl": null
+      },
+      {
+        "average_cost": "118.7500",
+        "cost_basis": "475.0000",
+        "cost_basis_weight": "0.06512737543532508843612032797",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 4,
+        "symbol": "NVDA",
+        "unrealized_pnl": null
+      }
+    ],
+    "total_cost_basis": "7293.4000"
+  },
+  "read_only": true,
+  "recorded_valuation": {
+    "as_of": "2026-08-03T20:15:00Z",
+    "available": true,
+    "benchmark_value": "10218.40",
+    "cash": null,
+    "message": null,
+    "positions_value": null,
+    "realized_pnl": null,
+    "return_pct": "0.0154",
+    "return_pct_basis": "ratio",
+    "session_date": "2026-08-03",
+    "source": "official-observation",
+    "status": "official",
+    "total_equity": "10153.60",
+    "unrealized_pnl": null
+  },
+  "runs": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 5,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 5,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "completed_at": "2026-08-03T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-03",
+          "quotes": "quote-2026-08-03"
+        },
+        "member_completed_at": "2026-08-03T20:13:00Z",
+        "member_error_code": null,
+        "member_error_message": null,
+        "member_started_at": "2026-08-03T20:10:00Z",
+        "member_status": "completed",
+        "quote_snapshot_id": "quote-2026-08-03",
+        "run_id": "run-paper-first-2026-07-28-2026-08-03",
+        "run_key": "paper-first-2026-07-28|2026-08-03",
+        "scheduled_for": "2026-08-03",
+        "session_id": "XNYS|2026-08-03",
+        "snapshot_id": "snap-2026-08-03",
+        "started_at": "2026-08-03T20:10:00Z",
+        "status": "completed"
+      },
+      {
+        "completed_at": "2026-07-31T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-31",
+          "quotes": "quote-2026-07-31"
+        },
+        "member_completed_at": "2026-07-31T20:13:00Z",
+        "member_error_code": null,
+        "member_error_message": null,
+        "member_started_at": "2026-07-31T20:10:00Z",
+        "member_status": "completed",
+        "quote_snapshot_id": "quote-2026-07-31",
+        "run_id": "run-paper-first-2026-07-28-2026-07-31",
+        "run_key": "paper-first-2026-07-28|2026-07-31",
+        "scheduled_for": "2026-07-31",
+        "session_id": "XNYS|2026-07-31",
+        "snapshot_id": "snap-2026-07-31",
+        "started_at": "2026-07-31T20:10:00Z",
+        "status": "completed"
+      },
+      {
+        "completed_at": "2026-07-30T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-30",
+          "quotes": "quote-2026-07-30"
+        },
+        "member_completed_at": "2026-07-30T20:13:00Z",
+        "member_error_code": null,
+        "member_error_message": null,
+        "member_started_at": "2026-07-30T20:10:00Z",
+        "member_status": "completed",
+        "quote_snapshot_id": "quote-2026-07-30",
+        "run_id": "run-paper-first-2026-07-28-2026-07-30",
+        "run_key": "paper-first-2026-07-28|2026-07-30",
+        "scheduled_for": "2026-07-30",
+        "session_id": "XNYS|2026-07-30",
+        "snapshot_id": "snap-2026-07-30",
+        "started_at": "2026-07-30T20:10:00Z",
+        "status": "completed"
+      },
+      {
+        "completed_at": "2026-07-29T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-29",
+          "quotes": "quote-2026-07-29"
+        },
+        "member_completed_at": "2026-07-29T20:13:00Z",
+        "member_error_code": null,
+        "member_error_message": null,
+        "member_started_at": "2026-07-29T20:10:00Z",
+        "member_status": "completed",
+        "quote_snapshot_id": "quote-2026-07-29",
+        "run_id": "run-paper-first-2026-07-28-2026-07-29",
+        "run_key": "paper-first-2026-07-28|2026-07-29",
+        "scheduled_for": "2026-07-29",
+        "session_id": "XNYS|2026-07-29",
+        "snapshot_id": "snap-2026-07-29",
+        "started_at": "2026-07-29T20:10:00Z",
+        "status": "completed"
+      },
+      {
+        "completed_at": "2026-07-28T20:14:00Z",
+        "data_snapshot_ids": {
+          "cohort_snapshot": "snap-2026-07-28",
+          "quotes": "quote-2026-07-28"
+        },
+        "member_completed_at": "2026-07-28T20:13:00Z",
+        "member_error_code": null,
+        "member_error_message": null,
+        "member_started_at": "2026-07-28T20:10:00Z",
+        "member_status": "completed",
+        "quote_snapshot_id": "quote-2026-07-28",
+        "run_id": "run-paper-first-2026-07-28-2026-07-28",
+        "run_key": "paper-first-2026-07-28|2026-07-28",
+        "scheduled_for": "2026-07-28",
+        "session_id": "XNYS|2026-07-28",
+        "snapshot_id": "snap-2026-07-28",
+        "started_at": "2026-07-28T20:10:00Z",
+        "status": "completed"
+      }
+    ]
+  },
+  "simulated_orders": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 3,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 3,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-08-03T20:15:00Z",
+        "fill_price": "118.7500",
+        "filled_at": "2026-08-03T20:15:00Z",
+        "limit_price": "119.0000",
+        "paper_order_id": 31,
+        "quantity": 4,
+        "reason": null,
+        "side": "BUY",
+        "status": "filled",
+        "symbol": "NVDA"
+      },
+      {
+        "as_of": "2026-08-03T20:15:00Z",
+        "fill_price": null,
+        "filled_at": null,
+        "limit_price": "240.0000",
+        "paper_order_id": 30,
+        "quantity": 6,
+        "reason": "insufficient settled paper cash (need 1452.00, have 841.55)",
+        "side": "BUY",
+        "status": "rejected",
+        "symbol": "TSLA"
+      },
+      {
+        "as_of": "2026-07-31T20:15:00Z",
+        "fill_price": "219.4500",
+        "filled_at": "2026-07-31T20:15:00Z",
+        "limit_price": "219.0000",
+        "paper_order_id": 29,
+        "quantity": 2,
+        "reason": null,
+        "side": "SELL",
+        "status": "filled",
+        "symbol": "AAPL"
+      }
+    ]
+  },
+  "strategy": {
+    "available": true,
+    "benchmark_symbol_or_sleeve": "bench-spy",
+    "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+    "data_requirements": [
+      "daily-bars",
+      "quotes"
+    ],
+    "decision_frequency": "daily",
+    "decision_time": "16:10",
+    "factor": "",
+    "implementation_name": "trend",
+    "leverage_allowed": false,
+    "long_only": true,
+    "message": null,
+    "parameters": {
+      "lookback_days": 90,
+      "max_positions": 12,
+      "rebalance": "weekly",
+      "sleeve": "trend-large"
+    },
+    "reproducible": true,
+    "strategy": "trend",
+    "strategy_id": "trend-v1",
+    "strategy_version": "1.0.0",
+    "universe": [],
+    "universe_definition": {
+      "preset": "mega-cap"
+    }
+  },
+  "warnings": []
+}

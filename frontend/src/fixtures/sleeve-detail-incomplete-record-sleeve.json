@@ -1,0 +1,163 @@
+{
+  "capital": {
+    "leverage": "1",
+    "max_position_fraction": "0.15",
+    "max_positions": 12,
+    "settlement_model": "t+1",
+    "starting_capital": "10000"
+  },
+  "cash": {
+    "as_of": null,
+    "available": false,
+    "buying_power": null,
+    "message": "The paper store for this sleeve could not be read, so positions and cash are unavailable. The rest of the record is unaffected.",
+    "opened_at": null,
+    "realized_pnl": null,
+    "settled_cash": null,
+    "starting_capital": null,
+    "total_cash": null,
+    "unsettled_cash": null
+  },
+  "contract_version": "1.0",
+  "cycles": {
+    "available": false,
+    "message": "The evaluation history for this sleeve could not be read, so its observations, cycles, and equity history are unavailable.",
+    "page": null,
+    "rows": []
+  },
+  "equity_history": {
+    "available": false,
+    "message": "The evaluation history for this sleeve could not be read, so its observations, cycles, and equity history are unavailable.",
+    "page": null,
+    "points": [],
+    "source": null
+  },
+  "generated_at": "2026-08-12T21:30:00Z",
+  "identity": {
+    "cohort_id": "paper-first-2026-07-28",
+    "created_at": "2026-07-24T15:00:00Z",
+    "lifecycle": {
+      "actionable": false,
+      "historical": false,
+      "label": "",
+      "lifecycle": "active",
+      "reason": "",
+      "reference": "",
+      "superseded_by": null
+    },
+    "name": "quality-compounder",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "original_name": "quality-compounder",
+    "scope": "official-cohort",
+    "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+    "strategy": "fundamental"
+  },
+  "lineage": {
+    "cohort_id": "paper-first-2026-07-28",
+    "cohort_start_session": null,
+    "configuration_hash": "4bb2a4be55becc6effcbc012e3ca4481c04ba2935fcd7bf2b1541d93697528ce",
+    "namespace_id": "d641610ebea37b4423ee296ea03ba6c3191664454a80ef97ca81662338254770",
+    "notes": [],
+    "run_ids": [],
+    "snapshot_ids": {},
+    "strategy_hashes": []
+  },
+  "observations": {
+    "available": false,
+    "message": "The evaluation history for this sleeve could not be read, so its observations, cycles, and equity history are unavailable.",
+    "page": null,
+    "rows": []
+  },
+  "performance": {
+    "as_of": null,
+    "available": false,
+    "cycles": 0,
+    "first_recorded_at": null,
+    "latest_value": null,
+    "max_drawdown_pct": null,
+    "message": "The evaluation history for this sleeve could not be read, so its lifetime performance summary is unavailable.",
+    "realized_pnl": null,
+    "sharpe": null,
+    "starting_capital": null,
+    "total_return_pct": null,
+    "trades_filled": 0
+  },
+  "positions": {
+    "as_of": null,
+    "available": false,
+    "mark_note": "No current mark is recorded for this position, and this view never requests a quote. Cost basis is exact; market value and unrealized P&L are unavailable.",
+    "message": "The paper store for this sleeve could not be read, so positions and cash are unavailable. The rest of the record is unaffected.",
+    "rows": [],
+    "total_cost_basis": null
+  },
+  "read_only": true,
+  "recorded_valuation": {
+    "as_of": null,
+    "available": false,
+    "benchmark_value": null,
+    "cash": null,
+    "message": "No valuation has been recorded for this sleeve yet, so it has no equity, return, or P&L to report.",
+    "positions_value": null,
+    "realized_pnl": null,
+    "return_pct": null,
+    "return_pct_basis": null,
+    "session_date": null,
+    "source": null,
+    "status": null,
+    "total_equity": null,
+    "unrealized_pnl": null
+  },
+  "runs": {
+    "available": true,
+    "message": "No cohort run has referenced this sleeve yet.",
+    "page": {
+      "available": 0,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "truncated": false
+    },
+    "rows": []
+  },
+  "simulated_orders": {
+    "available": false,
+    "message": "The paper store for this sleeve could not be read, so positions and cash are unavailable. The rest of the record is unaffected.",
+    "page": null,
+    "rows": []
+  },
+  "strategy": {
+    "available": true,
+    "benchmark_symbol_or_sleeve": "bench-spy",
+    "configuration_hash": "4bb2a4be55becc6effcbc012e3ca4481c04ba2935fcd7bf2b1541d93697528ce",
+    "data_requirements": [
+      "daily-bars",
+      "quotes"
+    ],
+    "decision_frequency": "daily",
+    "decision_time": "16:10",
+    "factor": "",
+    "implementation_name": "fundamental",
+    "leverage_allowed": false,
+    "long_only": true,
+    "message": null,
+    "parameters": {
+      "lookback_days": 90,
+      "max_positions": 12,
+      "rebalance": "weekly",
+      "sleeve": "quality-compounder"
+    },
+    "reproducible": true,
+    "strategy": "fundamental",
+    "strategy_id": "fundamental-v1",
+    "strategy_version": "1.0.0",
+    "universe": [],
+    "universe_definition": {
+      "preset": "mega-cap"
+    }
+  },
+  "warnings": [
+    "The evaluation history for this sleeve could not be read, so its observations, cycles, and equity history are unavailable.",
+    "The paper store for this sleeve could not be read, so positions and cash are unavailable. The rest of the record is unaffected."
+  ]
+}

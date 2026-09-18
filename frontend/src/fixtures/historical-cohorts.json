@@ -1,0 +1,3507 @@
+{
+  "api_version": "3.5",
+  "approvals": {
+    "rows": []
+  },
+  "audit": {
+    "rows": []
+  },
+  "benchmark": "bench-spy",
+  "cohort": {
+    "available": true,
+    "cohort_review": {
+      "available": true,
+      "completed_due_sessions": 12,
+      "decided_sleeve_count": 0,
+      "decisions": [],
+      "differences": [],
+      "member_count": 7,
+      "message": "No accounting review or operator decision has been recorded yet.",
+      "notes": [],
+      "official_observations": 84,
+      "pending_observations": [
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-07-27",
+          "session_date": "2026-07-27",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-07-28",
+          "session_date": "2026-07-28",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-07-29",
+          "session_date": "2026-07-29",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-07-30",
+          "session_date": "2026-07-30",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-07-31",
+          "session_date": "2026-07-31",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-03",
+          "session_date": "2026-08-03",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-04",
+          "session_date": "2026-08-04",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-05",
+          "session_date": "2026-08-05",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-06",
+          "session_date": "2026-08-06",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-07",
+          "session_date": "2026-08-07",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-10",
+          "session_date": "2026-08-10",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid"
+        },
+        {
+          "missing_areas": [
+            "cash",
+            "positions",
+            "valuation"
+          ],
+          "observation_key": "paper-first-2026-07-28|a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca|2026-08-11",
+          "session_date": "2026-08-11",
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar"
+        }
+      ],
+      "recorded_check_count": 0,
+      "review_due": false,
+      "review_target": 30,
+      "reviewed_observations": 0,
+      "superseded_checks": [],
+      "superseded_decisions": [],
+      "unexplained_difference_count": 0
+    },
+    "comparison": {
+      "available": true,
+      "benchmark_dates": [
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11"
+      ],
+      "cohort_id": "paper-first-2026-07-28",
+      "common_dates": [
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11"
+      ],
+      "correlations": [
+        {
+          "correlation": 0.10626353223289753,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537"
+        },
+        {
+          "correlation": 0.10626353223289753,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19"
+        },
+        {
+          "correlation": -0.8964205590090202,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e"
+        },
+        {
+          "correlation": -0.4262582019651974,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1"
+        },
+        {
+          "correlation": -0.8626731661629697,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0"
+        },
+        {
+          "correlation": 0.7625430735192359,
+          "sample_count": 11,
+          "sleeve_a": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        },
+        {
+          "correlation": 1.0,
+          "sample_count": 11,
+          "sleeve_a": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_b": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19"
+        },
+        {
+          "correlation": -0.0038262471278753757,
+          "sample_count": 11,
+          "sleeve_a": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_b": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e"
+        },
+        {
+          "correlation": -0.7200095933581939,
+          "sample_count": 11,
+          "sleeve_a": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_b": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1"
+        },
+        {
+          "correlation": -0.2626709891736515,
+          "sample_count": 11,
+          "sleeve_a": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_b": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0"
+        },
+        {
+          "correlation": -0.12497841831700987,
+          "sample_count": 11,
+          "sleeve_a": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        },
+        {
+          "correlation": -0.0038262471278753757,
+          "sample_count": 11,
+          "sleeve_a": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_b": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e"
+        },
+        {
+          "correlation": -0.7200095933581939,
+          "sample_count": 11,
+          "sleeve_a": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_b": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1"
+        },
+        {
+          "correlation": -0.2626709891736515,
+          "sample_count": 11,
+          "sleeve_a": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_b": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0"
+        },
+        {
+          "correlation": -0.12497841831700987,
+          "sample_count": 11,
+          "sleeve_a": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        },
+        {
+          "correlation": 0.2854071142353223,
+          "sample_count": 11,
+          "sleeve_a": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_b": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1"
+        },
+        {
+          "correlation": 0.7406398570043197,
+          "sample_count": 11,
+          "sleeve_a": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_b": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0"
+        },
+        {
+          "correlation": -0.8538046758053122,
+          "sample_count": 11,
+          "sleeve_a": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        },
+        {
+          "correlation": 0.5421948003299019,
+          "sample_count": 11,
+          "sleeve_a": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_b": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0"
+        },
+        {
+          "correlation": -0.18043714983780576,
+          "sample_count": 11,
+          "sleeve_a": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        },
+        {
+          "correlation": -0.6117763904835006,
+          "sample_count": 11,
+          "sleeve_a": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_b": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca"
+        }
+      ],
+      "message": null,
+      "sleeves": [
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": -0.4431663929066884,
+          "correlation": -0.28315911244000225,
+          "coverage": 1.0,
+          "excess_return": -0.011861163711909706,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "2.912621359223300970873786408",
+          "modeled_cost_drag": "0.001355044595368627771868095900",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": 2.99809625633717,
+          "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+          "sleeve_name": "dual-momentum-etf",
+          "sleeve_return": 0.04875621890547266,
+          "sortino": 5.730434582443448,
+          "strategy": "momentum",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1476",
+          "turnover_ratio": "0.1449308567220358399476311267",
+          "volatility": 0.38709637120425233
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": 0.5068393594083448,
+          "correlation": 0.3147543475951033,
+          "coverage": 1.0,
+          "excess_return": -0.07763439963439933,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "6.342913776015857284440039643",
+          "modeled_cost_drag": "0.001396643333052205448258412752",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": -0.8058038770026043,
+          "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+          "sleeve_name": "quality-compounder",
+          "sleeve_return": -0.017017017017016967,
+          "sortino": -1.1890693307209432,
+          "strategy": "fundamental",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1632",
+          "turnover_ratio": "0.1651682550392173399679514211",
+          "volatility": 0.39827350817042184
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": 0.5068393594083448,
+          "correlation": 0.3147543475951033,
+          "coverage": 1.0,
+          "excess_return": -0.07763439963439933,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "6.342913776015857284440039643",
+          "modeled_cost_drag": "0.001396643333052205448258412752",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": -0.8058038770026043,
+          "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+          "sleeve_name": "bench-spy",
+          "sleeve_return": -0.017017017017016967,
+          "sortino": -1.1890693307209432,
+          "strategy": "benchmark",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1500",
+          "turnover_ratio": "0.1518090579404571139411318209",
+          "volatility": 0.39827350817042184
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": 0.40298369486288466,
+          "correlation": 0.2649666154378527,
+          "coverage": 1.0,
+          "excess_return": -0.03369814034420182,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "2.876001885902876001885902876",
+          "modeled_cost_drag": "0.001348589111934525021377091901",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": 1.7897311658750865,
+          "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+          "sleeve_name": "trend-large",
+          "sleeve_return": 0.026919242273180544,
+          "sortino": 3.135889680713735,
+          "strategy": "trend",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1788",
+          "turnover_ratio": "0.1747302414593428071175536463",
+          "volatility": 0.37616565438088284
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": -0.7083407784667,
+          "correlation": -0.44404433696798173,
+          "coverage": 1.0,
+          "excess_return": -0.1219239152806989,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "6.600",
+          "modeled_cost_drag": "0.001409781637083386540671689439",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": -3.483170626985093,
+          "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+          "sleeve_name": "low-vol-defensive",
+          "sleeve_return": -0.06130653266331654,
+          "sortino": -4.3885362376498875,
+          "strategy": "trend",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1536",
+          "turnover_ratio": "0.1569148256927595453965010854",
+          "volatility": 0.39454698814725503
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": 0.3800207883812427,
+          "correlation": 0.24458628431872462,
+          "coverage": 1.0,
+          "excess_return": -0.07212313549382021,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "3.9062500",
+          "modeled_cost_drag": "0.001374787264953717155784317795",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": -0.5152356847281323,
+          "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+          "sleeve_name": "mean-reversion-mid",
+          "sleeve_return": -0.011505752876437847,
+          "sortino": -0.7736650759582298,
+          "strategy": "meanrev",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "1560",
+          "turnover_ratio": "0.1554107342991158523930098376",
+          "volatility": 0.3842891112172201
+        },
+        {
+          "benchmark_return": 0.060617382617382365,
+          "beta": -0.41211107417578347,
+          "correlation": -0.25726248468250085,
+          "coverage": 1.0,
+          "excess_return": -0.03250493281818523,
+          "exclusions": [],
+          "matched_dates": [
+            "2026-07-27",
+            "2026-07-28",
+            "2026-07-29",
+            "2026-07-30",
+            "2026-07-31",
+            "2026-08-03",
+            "2026-08-04",
+            "2026-08-05",
+            "2026-08-06",
+            "2026-08-07",
+            "2026-08-10",
+            "2026-08-11"
+          ],
+          "maturity": "mature",
+          "max_drawdown_pct": "3.103448275862068965517241379",
+          "modeled_cost_drag": "0.001383747649885105494046375601",
+          "num_filled": 42,
+          "num_rejected": 12,
+          "reject_rate": 0.2222222222222222,
+          "reliability": {
+            "excluded": 0,
+            "missing": 0,
+            "official": 12,
+            "partial": 0,
+            "readiness_ready": 12,
+            "readiness_unknown": 0,
+            "readiness_unready": 0,
+            "reason_codes": [],
+            "total_observations": 12,
+            "used": 12
+          },
+          "rolling_excess": {
+            "20": [],
+            "60": []
+          },
+          "sample_count": 11,
+          "sharpe": 1.784351122745017,
+          "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+          "sleeve_name": "value-momentum-edgar",
+          "sleeve_return": 0.028112449799197137,
+          "sortino": 3.039427833317446,
+          "strategy": "fundamental",
+          "total_modeled_cost": "13.80",
+          "total_turnover": "2016",
+          "turnover_ratio": "0.2021474827658241069563400877",
+          "volatility": 0.3962056358958424
+        }
+      ]
+    },
+    "contract_version": "2.4",
+    "identity": {
+      "benchmark_sleeve": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+      "benchmark_sleeve_name": "bench-spy",
+      "cohort_id": "paper-first-2026-07-28",
+      "created_at": "2026-07-24T15:00:00Z",
+      "first_session": "2026-07-27",
+      "latest_session": "2026-08-12",
+      "member_names": [
+        "bench-spy",
+        "trend-large",
+        "value-momentum-edgar",
+        "mean-reversion-mid",
+        "quality-compounder",
+        "low-vol-defensive",
+        "dual-momentum-etf"
+      ],
+      "member_sleeves": [
+        "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+        "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+        "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+        "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+        "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+        "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+        "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+      ],
+      "starting_capital_per_sleeve": "10000"
+    },
+    "message": null,
+    "operational_gate": {
+      "available": true,
+      "cohort_id": "paper-first-2026-07-28",
+      "investment_alpha_assessed": false,
+      "live_trading_authorized": false,
+      "message": null,
+      "operationally_useful": false,
+      "rules": [
+        {
+          "awaiting_evidence": true,
+          "evidence": [
+            "observed scheduled sessions: 12",
+            "required scheduled sessions: 30"
+          ],
+          "label": "Session history",
+          "presentation": "awaiting-evidence",
+          "reason": "The cohort has 12 scheduled sessions; at least 30 are required.",
+          "rule": "session-history",
+          "status": "insufficient-history"
+        },
+        {
+          "awaiting_evidence": false,
+          "evidence": [
+            "accounted-for observation slots: 84/84",
+            "completion rate: 1.0000",
+            "required completion rate: 0.9800"
+          ],
+          "label": "Completion reliability",
+          "presentation": "healthy",
+          "reason": "Expected observations meet the configured completion-and-explanation floor.",
+          "rule": "completion-rate",
+          "status": "pass"
+        },
+        {
+          "awaiting_evidence": false,
+          "evidence": [
+            "observations checked: 84",
+            "duplicate identity count: 0"
+          ],
+          "label": "Duplicate observations",
+          "presentation": "healthy",
+          "reason": "Every cohort/sleeve/session observation identity is unique.",
+          "rule": "duplicate-observations",
+          "status": "pass"
+        },
+        {
+          "awaiting_evidence": true,
+          "evidence": [
+            "official observations requiring review: 84",
+            "accounting evidence supplied: no"
+          ],
+          "label": "Paper accounting",
+          "presentation": "awaiting-evidence",
+          "reason": "Accounting review evidence is missing, so the gate fails closed.",
+          "rule": "accounting-states",
+          "status": "fail"
+        },
+        {
+          "awaiting_evidence": false,
+          "evidence": [
+            "observations checked: 84",
+            "readiness violations: 0"
+          ],
+          "label": "Data readiness",
+          "presentation": "healthy",
+          "reason": "Every official result was ready and every incomplete result retained blocking reasons.",
+          "rule": "data-readiness",
+          "status": "pass"
+        },
+        {
+          "awaiting_evidence": false,
+          "evidence": [
+            "durable runs checked: 12",
+            "strategy definitions checked: 7/7",
+            "official observation lineages checked: 84",
+            "reproducibility problems: 0"
+          ],
+          "label": "Reproducibility",
+          "presentation": "healthy",
+          "reason": "Definitions reconstruct exactly and the comparison reproduces from persisted records.",
+          "rule": "reproducibility",
+          "status": "pass"
+        },
+        {
+          "awaiting_evidence": true,
+          "evidence": [
+            "eligible non-control sleeves: 6",
+            "distinct non-control sleeves: 0",
+            "required distinct non-control sleeves: 2",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e/a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca:overlap=12 below 20",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e/72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0:overlap=12 below 20",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e/2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537:overlap=12 below 20",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e/66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1:overlap=12 below 20",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e/0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c:overlap=12 below 20",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca/72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0:overlap=12 below 20",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca/2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537:overlap=12 below 20",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca/66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1:overlap=12 below 20",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca/0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c:overlap=12 below 20",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0/2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537:overlap=12 below 20",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0/66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1:overlap=12 below 20",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0/0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c:overlap=12 below 20",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537/66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1:overlap=12 below 20",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537/0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c:overlap=12 below 20",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1/0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c:overlap=12 below 20"
+          ],
+          "label": "Distinct strategy behavior",
+          "presentation": "awaiting-evidence",
+          "reason": "Observed behavior remains preliminary until the cohort reaches the history floor.",
+          "rule": "distinct-sleeve-behavior",
+          "status": "insufficient-history"
+        },
+        {
+          "awaiting_evidence": true,
+          "evidence": [
+            "operator decision record supplied: no",
+            "required defensible decisions: 1"
+          ],
+          "label": "Operator decisions",
+          "presentation": "awaiting-evidence",
+          "reason": "Operator decision evidence is missing, so the gate fails closed.",
+          "rule": "operator-decisions",
+          "status": "fail"
+        }
+      ],
+      "status": "fail",
+      "summary": "The cohort failed one or more operational-usefulness rules."
+    },
+    "phase": {
+      "as_of": "2026-08-12",
+      "awaiting_execution_session": null,
+      "awaiting_provider_session": null,
+      "cohort_id": "paper-first-2026-07-28",
+      "completed_due_sessions": 12,
+      "completion_reliability": 1.0,
+      "due_sessions": 12,
+      "evidence_cutoff": "2026-08-11",
+      "headline": "Collecting official observations",
+      "integrity_alerts": [],
+      "latest_due_run": {
+        "completed_members": 7,
+        "error_summary": null,
+        "expected_members": 7,
+        "run_id": "run-paper-first-2026-07-28-2026-08-11",
+        "scheduled_for": "2026-08-11",
+        "status": "completed"
+      },
+      "latest_observation_date": "2026-08-11",
+      "next_action": "Keep running the cohort; 18 more due sessions before review.",
+      "next_scheduled_session": "2026-08-12",
+      "now_et": "2026-08-12T09:28:00",
+      "official_observations": 84,
+      "overdue_sessions": [],
+      "phase": "collecting",
+      "progress_ratio": 0.4,
+      "review_target": 30,
+      "sessions_remaining": 18,
+      "start_session": "2026-07-27",
+      "started": true,
+      "timing_state": "upcoming",
+      "total_scheduled_sessions": 13
+    },
+    "readiness": [
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+        "sleeve_name": "bench-spy",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+        "sleeve_name": "trend-large",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+        "sleeve_name": "value-momentum-edgar",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+        "sleeve_name": "mean-reversion-mid",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+        "sleeve_name": "quality-compounder",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+        "sleeve_name": "low-vol-defensive",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      },
+      {
+        "evidence_status": "ready",
+        "observation_status": "official",
+        "quote_coverage": "1.00",
+        "ready": true,
+        "reason_codes": [],
+        "session_date": "2026-08-11",
+        "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+        "sleeve_name": "dual-momentum-etf",
+        "snapshot_ids": {
+          "cohort_snapshot": "snap-2026-08-11",
+          "quotes": "quote-2026-08-11"
+        }
+      }
+    ],
+    "run_health": {
+      "available": true,
+      "awaiting_execution_runs": 0,
+      "awaiting_provider_data_runs": 0,
+      "executed_runs": 12,
+      "latest_status": "pending",
+      "message": null,
+      "overdue_runs": 0,
+      "runs": [
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": null,
+          "completed_members": [],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": null,
+              "status": "pending"
+            },
+            {
+              "completed_at": null,
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": null,
+              "status": "pending"
+            }
+          ],
+          "quote_snapshot_id": null,
+          "retry_deadline_et": "2026-08-13T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-12",
+          "run_key": "paper-first-2026-07-28|2026-08-12",
+          "scheduled_for": "2026-08-12",
+          "session_id": "XNYS|2026-08-12",
+          "snapshot_id": null,
+          "started_at": "2026-08-12T20:10:00Z",
+          "status": "pending",
+          "timing": "upcoming"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-11T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-11T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-11T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-11",
+          "retry_deadline_et": "2026-08-12T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-11",
+          "run_key": "paper-first-2026-07-28|2026-08-11",
+          "scheduled_for": "2026-08-11",
+          "session_id": "XNYS|2026-08-11",
+          "snapshot_id": "snap-2026-08-11",
+          "started_at": "2026-08-11T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-10T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-10T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-10T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-10",
+          "retry_deadline_et": "2026-08-11T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-10",
+          "run_key": "paper-first-2026-07-28|2026-08-10",
+          "scheduled_for": "2026-08-10",
+          "session_id": "XNYS|2026-08-10",
+          "snapshot_id": "snap-2026-08-10",
+          "started_at": "2026-08-10T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-07T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-07T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-07T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-07",
+          "retry_deadline_et": "2026-08-10T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-07",
+          "run_key": "paper-first-2026-07-28|2026-08-07",
+          "scheduled_for": "2026-08-07",
+          "session_id": "XNYS|2026-08-07",
+          "snapshot_id": "snap-2026-08-07",
+          "started_at": "2026-08-07T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-06T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-06T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-06T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-06",
+          "retry_deadline_et": "2026-08-07T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-06",
+          "run_key": "paper-first-2026-07-28|2026-08-06",
+          "scheduled_for": "2026-08-06",
+          "session_id": "XNYS|2026-08-06",
+          "snapshot_id": "snap-2026-08-06",
+          "started_at": "2026-08-06T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-05T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-05T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-05T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-05",
+          "retry_deadline_et": "2026-08-06T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-05",
+          "run_key": "paper-first-2026-07-28|2026-08-05",
+          "scheduled_for": "2026-08-05",
+          "session_id": "XNYS|2026-08-05",
+          "snapshot_id": "snap-2026-08-05",
+          "started_at": "2026-08-05T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-04T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-04T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-04T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-04",
+          "retry_deadline_et": "2026-08-05T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-04",
+          "run_key": "paper-first-2026-07-28|2026-08-04",
+          "scheduled_for": "2026-08-04",
+          "session_id": "XNYS|2026-08-04",
+          "snapshot_id": "snap-2026-08-04",
+          "started_at": "2026-08-04T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-08-03T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-08-03T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-08-03T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-08-03",
+          "retry_deadline_et": "2026-08-04T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-08-03",
+          "run_key": "paper-first-2026-07-28|2026-08-03",
+          "scheduled_for": "2026-08-03",
+          "session_id": "XNYS|2026-08-03",
+          "snapshot_id": "snap-2026-08-03",
+          "started_at": "2026-08-03T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-07-31T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-31T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-07-31T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-07-31",
+          "retry_deadline_et": "2026-08-03T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-07-31",
+          "run_key": "paper-first-2026-07-28|2026-07-31",
+          "scheduled_for": "2026-07-31",
+          "session_id": "XNYS|2026-07-31",
+          "snapshot_id": "snap-2026-07-31",
+          "started_at": "2026-07-31T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-07-30T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-30T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-07-30T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-07-30",
+          "retry_deadline_et": "2026-07-31T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-07-30",
+          "run_key": "paper-first-2026-07-28|2026-07-30",
+          "scheduled_for": "2026-07-30",
+          "session_id": "XNYS|2026-07-30",
+          "snapshot_id": "snap-2026-07-30",
+          "started_at": "2026-07-30T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-07-29T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-29T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-07-29T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-07-29",
+          "retry_deadline_et": "2026-07-30T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-07-29",
+          "run_key": "paper-first-2026-07-28|2026-07-29",
+          "scheduled_for": "2026-07-29",
+          "session_id": "XNYS|2026-07-29",
+          "snapshot_id": "snap-2026-07-29",
+          "started_at": "2026-07-29T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-07-28T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-28T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-07-28T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-07-28",
+          "retry_deadline_et": "2026-07-29T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-07-28",
+          "run_key": "paper-first-2026-07-28|2026-07-28",
+          "scheduled_for": "2026-07-28",
+          "session_id": "XNYS|2026-07-28",
+          "snapshot_id": "snap-2026-07-28",
+          "started_at": "2026-07-28T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        },
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "completed_at": "2026-07-27T20:14:00Z",
+          "completed_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "data_snapshot_ids": {},
+          "errors": [],
+          "expected_members": [
+            "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+            "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+            "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+            "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+            "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+            "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+            "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c"
+          ],
+          "members": [
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+              "sleeve_name": "bench-spy",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+              "sleeve_name": "trend-large",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+              "sleeve_name": "value-momentum-edgar",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+              "sleeve_name": "mean-reversion-mid",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+              "sleeve_name": "quality-compounder",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+              "sleeve_name": "low-vol-defensive",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-07-27T20:13:00Z",
+              "error": null,
+              "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+              "sleeve_name": "dual-momentum-etf",
+              "started_at": "2026-07-27T20:10:00Z",
+              "status": "completed"
+            }
+          ],
+          "quote_snapshot_id": "quote-2026-07-27",
+          "retry_deadline_et": "2026-07-28T16:00:00",
+          "run_id": "run-paper-first-2026-07-28-2026-07-27",
+          "run_key": "paper-first-2026-07-28|2026-07-27",
+          "scheduled_for": "2026-07-27",
+          "session_id": "XNYS|2026-07-27",
+          "snapshot_id": "snap-2026-07-27",
+          "started_at": "2026-07-27T20:10:00Z",
+          "status": "completed",
+          "timing": "executed"
+        }
+      ],
+      "total_runs": 13,
+      "upcoming_runs": 1
+    },
+    "selection": {
+      "active": [
+        "paper-first-2026-07-28"
+      ],
+      "active_cohorts": [
+        {
+          "cohort_id": "paper-first-2026-07-28",
+          "is_default": true,
+          "start_session": "2026-07-27"
+        }
+      ],
+      "ambiguity_reason": "",
+      "ambiguous": false,
+      "available": [
+        "paper-first-2026-07-27",
+        "paper-first-2026-07-28"
+      ],
+      "historical": [
+        {
+          "cohort_id": "paper-first-2026-07-27",
+          "label": "Superseded \u2014 partial incident, do not run",
+          "lifecycle": "superseded",
+          "reason": "Session 1 recorded a terminal partial (2 of 7 members) on stale daily bars. The collection restarted as a new cohort; these records are kept unchanged as incident evidence.",
+          "reference": "docs/incidents/2026-07-27-paper-first-cohort-daily-bars-stale.md",
+          "superseded_by": "paper-first-2026-07-28"
+        }
+      ],
+      "multiple_active": false,
+      "older_active": [],
+      "requested": null,
+      "selected": "paper-first-2026-07-28",
+      "selected_is_historical": false
+    },
+    "sleeve_definitions": [
+      {
+        "configuration_hash": "fbffc4b1bf4d76e4e1e9d9ce467912b2cfd31e4c4cb0d93b10e7c15cc3366198",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "fbffc4b1bf4d76e4e1e9d9ce467912b2cfd31e4c4cb0d93b10e7c15cc3366198",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "benchmark",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "bench-spy"
+          },
+          "strategy_id": "benchmark-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19",
+        "sleeve_name": "bench-spy",
+        "strategy": "benchmark"
+      },
+      {
+        "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "2d432dce12c823f6e4732538818485e86b556cb0cd0352bf2767d9df5db66696",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "trend",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "trend-large"
+          },
+          "strategy_id": "trend-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e",
+        "sleeve_name": "trend-large",
+        "strategy": "trend"
+      },
+      {
+        "configuration_hash": "f2b04741a7efe84d991daa69e79213ceaf2e122955358e106710b6c6e2b9f170",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "f2b04741a7efe84d991daa69e79213ceaf2e122955358e106710b6c6e2b9f170",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "fundamental",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "value-momentum-edgar"
+          },
+          "strategy_id": "fundamental-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca",
+        "sleeve_name": "value-momentum-edgar",
+        "strategy": "fundamental"
+      },
+      {
+        "configuration_hash": "b802fe8ccb74442c55d4d6f5601de934d7a05a90d4066944a321a1cda1b86d31",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "b802fe8ccb74442c55d4d6f5601de934d7a05a90d4066944a321a1cda1b86d31",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "meanrev",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "mean-reversion-mid"
+          },
+          "strategy_id": "meanrev-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0",
+        "sleeve_name": "mean-reversion-mid",
+        "strategy": "meanrev"
+      },
+      {
+        "configuration_hash": "4bb2a4be55becc6effcbc012e3ca4481c04ba2935fcd7bf2b1541d93697528ce",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "4bb2a4be55becc6effcbc012e3ca4481c04ba2935fcd7bf2b1541d93697528ce",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "fundamental",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "quality-compounder"
+          },
+          "strategy_id": "fundamental-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537",
+        "sleeve_name": "quality-compounder",
+        "strategy": "fundamental"
+      },
+      {
+        "configuration_hash": "6c8da61c43357269e3ddc4fd581bd1ce46017d641d9d765434bb1a87d1377734",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "6c8da61c43357269e3ddc4fd581bd1ce46017d641d9d765434bb1a87d1377734",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "trend",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "low-vol-defensive"
+          },
+          "strategy_id": "trend-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1",
+        "sleeve_name": "low-vol-defensive",
+        "strategy": "trend"
+      },
+      {
+        "configuration_hash": "a6e9b4f0cd0cfadba6ba103e9613dcb0c11fe1d6ce79cb6432dc8ff7815233c0",
+        "definition": {
+          "benchmark_symbol_or_sleeve": "bench-spy",
+          "configuration_hash": "a6e9b4f0cd0cfadba6ba103e9613dcb0c11fe1d6ce79cb6432dc8ff7815233c0",
+          "data_requirements": [
+            "daily-bars",
+            "quotes"
+          ],
+          "decision_frequency": "daily",
+          "decision_time": "16:10:00",
+          "implementation_name": "momentum",
+          "leverage_allowed": false,
+          "long_only": true,
+          "parameters": {
+            "lookback_days": 90,
+            "max_positions": 12,
+            "rebalance": "weekly",
+            "sleeve": "dual-momentum-etf"
+          },
+          "strategy_id": "momentum-v1",
+          "strategy_version": "1.0.0",
+          "universe_definition": {
+            "preset": "mega-cap"
+          }
+        },
+        "reproducible": true,
+        "sleeve_id": "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c",
+        "sleeve_name": "dual-momentum-etf",
+        "strategy": "momentum"
+      }
+    ],
+    "sleeve_names": {
+      "0d3092f37d72d31583842a92f22aa0a9c84fbc777fc47214d97ee3d026a3c05c": "dual-momentum-etf",
+      "2053a2a7ab97f7b674c73047641af7453a596e99ed11b9b73f452fdb8ea37537": "quality-compounder",
+      "42f4959f9c236acd602a4ea059cf640e67b60bb5f125954a59574d9595558b19": "bench-spy",
+      "5a17d1d3e0796a7427977f88067c5a416ef99cd13fd8acac69efa1815ed6076e": "trend-large",
+      "66941efda740bdc199bf9e8c955ba3f4802d88453d115af5bee5ff8b9a34f1e1": "low-vol-defensive",
+      "72cdf535abfdcad1557108c624fdd5f9b4d53148c186b8f92f9cdd57b88822c0": "mean-reversion-mid",
+      "a9b43916deb370d4c6d522a6477238f1bdea812e0b0e4401afd66eec830616ca": "value-momentum-edgar"
+    }
+  },
+  "curves": [
+    {
+      "name": "trend-large",
+      "points": [
+        "5000.00",
+        "5046.05",
+        "5092.10",
+        "5138.15",
+        "5184.20",
+        "5230.25",
+        "5276.30",
+        "5322.35",
+        "5368.40",
+        "5414.45",
+        "5460.50",
+        "5506.55",
+        "5552.60",
+        "5598.65",
+        "5644.70",
+        "5690.75",
+        "5736.80",
+        "5782.85",
+        "5828.90",
+        "5874.95",
+        "5921.00"
+      ],
+      "sleeve_id": "7cb82fd82c781edf3260ba23406a0de5910fc3173a1ceb39f9a07c724f7039f6"
+    },
+    {
+      "name": "bench-spy",
+      "points": [
+        "5000.00",
+        "5027.58",
+        "5055.15",
+        "5082.72",
+        "5110.30",
+        "5137.88",
+        "5165.45",
+        "5193.02",
+        "5220.60",
+        "5248.18",
+        "5275.75",
+        "5303.32",
+        "5330.90",
+        "5358.48",
+        "5386.05",
+        "5413.62",
+        "5441.20",
+        "5468.78",
+        "5496.35",
+        "5523.92",
+        "5551.50"
+      ],
+      "sleeve_id": "42acf8f2aca0c6dbfec13649bff191ad3f673ecbfe64b15a1ff418f8c91dda92"
+    },
+    {
+      "name": "value-momentum-edgar",
+      "points": [
+        "5000.00",
+        "5016.78",
+        "5033.55",
+        "5050.32",
+        "5067.10",
+        "5083.88",
+        "5100.65",
+        "5117.42",
+        "5134.20",
+        "5150.98",
+        "5167.75",
+        "5184.52",
+        "5201.30",
+        "5218.08",
+        "5234.85",
+        "5251.62",
+        "5268.40",
+        "5285.18",
+        "5301.95",
+        "5318.72",
+        "5335.50"
+      ],
+      "sleeve_id": "580c37dfc872f9c4fbaeed8a92e251a78a1ae59ff5c356230ee05622f35fcd43"
+    },
+    {
+      "name": "mean-reversion-mid",
+      "points": [
+        "5000.00",
+        "4994.62",
+        "4989.25",
+        "4983.88",
+        "4978.50",
+        "4973.12",
+        "4967.75",
+        "4962.38",
+        "4957.00",
+        "4951.62",
+        "4946.25",
+        "4940.88",
+        "4935.50",
+        "4930.12",
+        "4924.75",
+        "4919.38",
+        "4914.00",
+        "4908.62",
+        "4903.25",
+        "4897.88",
+        "4892.50"
+      ],
+      "sleeve_id": "601c7ca573972eede24d567ba92baccc1f1293c22d6d8394c923e036a0033bd6"
+    }
+  ],
+  "generated_at": "2026-07-24T21:30:00Z",
+  "live_enabled": false,
+  "orders": {
+    "available": false,
+    "hours": 48,
+    "message": "Live data disabled for this server.",
+    "orders": []
+  },
+  "positions": {
+    "account": "****1234",
+    "available": false,
+    "cash_available_for_trading": null,
+    "cash_available_for_withdrawal": null,
+    "liquidation_value": null,
+    "message": "Live data disabled for this server.",
+    "positions": []
+  },
+  "reconciliation": {
+    "completed_at": null,
+    "discrepancies": 0,
+    "fills_applied": 0,
+    "orders_seen": 0,
+    "pending_fill_applications": 0,
+    "success": null,
+    "transitions": 0
+  },
+  "regime": {
+    "available": false,
+    "breadth_above_50": false,
+    "breadth_pct": 0.0,
+    "calm_volatility": false,
+    "gross_exposure_cap": "0",
+    "message": null,
+    "score": 0,
+    "spy_above_200dma": false,
+    "trend_50_over_200": false
+  },
+  "safety": {
+    "capital_cap": "2000",
+    "daily_loss_limit": "100",
+    "kill_engaged": false,
+    "kill_reason": null,
+    "kill_since": null,
+    "max_order_notional": "100",
+    "max_trades_per_day": 5,
+    "realized_pnl": "0",
+    "start_equity": null,
+    "trades_today": 0
+  },
+  "sleeves": [
+    {
+      "cohort_id": null,
+      "cycles": 41,
+      "excess_benchmark": "bench-spy",
+      "excess_pct": "7.39",
+      "historical": false,
+      "is_benchmark": false,
+      "max_drawdown_pct": "4.80",
+      "name": "trend-large",
+      "rank": 1,
+      "return_pct": "18.42",
+      "scope": "legacy",
+      "sharpe": "0.91",
+      "sleeve_id": "7cb82fd82c781edf3260ba23406a0de5910fc3173a1ceb39f9a07c724f7039f6",
+      "starting_capital": "5000",
+      "strategy": "trend",
+      "trades": 96,
+      "value": "5921.00"
+    },
+    {
+      "cohort_id": null,
+      "cycles": 41,
+      "excess_benchmark": null,
+      "excess_pct": null,
+      "historical": false,
+      "is_benchmark": true,
+      "max_drawdown_pct": "4.80",
+      "name": "bench-spy",
+      "rank": 2,
+      "return_pct": "11.03",
+      "scope": "legacy",
+      "sharpe": "0.91",
+      "sleeve_id": "42acf8f2aca0c6dbfec13649bff191ad3f673ecbfe64b15a1ff418f8c91dda92",
+      "starting_capital": "5000",
+      "strategy": "benchmark",
+      "trades": 0,
+      "value": "5551.50"
+    },
+    {
+      "cohort_id": null,
+      "cycles": 41,
+      "excess_benchmark": "bench-spy",
+      "excess_pct": "-4.32",
+      "historical": false,
+      "is_benchmark": false,
+      "max_drawdown_pct": "4.80",
+      "name": "value-momentum-edgar",
+      "rank": 3,
+      "return_pct": "6.71",
+      "scope": "legacy",
+      "sharpe": "0.91",
+      "sleeve_id": "580c37dfc872f9c4fbaeed8a92e251a78a1ae59ff5c356230ee05622f35fcd43",
+      "starting_capital": "5000",
+      "strategy": "fundamental",
+      "trades": 58,
+      "value": "5335.50"
+    },
+    {
+      "cohort_id": null,
+      "cycles": 41,
+      "excess_benchmark": "bench-spy",
+      "excess_pct": "-13.18",
+      "historical": false,
+      "is_benchmark": false,
+      "max_drawdown_pct": "4.80",
+      "name": "mean-reversion-mid",
+      "rank": 4,
+      "return_pct": "-2.15",
+      "scope": "legacy",
+      "sharpe": "0.91",
+      "sleeve_id": "601c7ca573972eede24d567ba92baccc1f1293c22d6d8394c923e036a0033bd6",
+      "starting_capital": "5000",
+      "strategy": "meanrev",
+      "trades": 132,
+      "value": "4892.50"
+    }
+  ],
+  "summary": {
+    "account": "****1234",
+    "cash_available": null,
+    "day_pl": null,
+    "kill_engaged": false,
+    "liquidation_value": null
+  },
+  "tax_lots": {
+    "rows": []
+  },
+  "validation": {
+    "rows": []
+  }
+}

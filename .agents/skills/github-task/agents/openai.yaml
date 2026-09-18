@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Task"
+  short_description: "Claim and implement GitHub issues safely"
+  default_prompt: "Use $github-task to claim and implement the selected GitHub issue safely."

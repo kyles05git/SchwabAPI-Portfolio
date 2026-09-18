@@ -1,0 +1,4 @@
+interface:
+  display_name: "Incident Investigation"
+  short_description: "Evidence-first root-cause analysis without speculative fixes"
+  default_prompt: "Use $incident-investigation to find the root cause of the reported failure."

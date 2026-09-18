@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Agent coordination protocol
+    url: https://github.com/kyles05git/SchwabAPI-Portfolio/blob/main/docs/AGENT_COORDINATION.md
+    about: Read the claim, heartbeat, handoff, and integration rules first.

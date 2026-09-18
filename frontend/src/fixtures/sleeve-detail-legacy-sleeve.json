@@ -1,0 +1,291 @@
+{
+  "capital": {
+    "leverage": "1",
+    "max_position_fraction": "0.20",
+    "max_positions": 8,
+    "settlement_model": "instant",
+    "starting_capital": "25000"
+  },
+  "cash": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "buying_power": "35.30",
+    "message": null,
+    "opened_at": "2026-03-02T14:00:00Z",
+    "realized_pnl": "412.85",
+    "settled_cash": "35.30",
+    "starting_capital": "25000",
+    "total_cash": "35.30",
+    "unsettled_cash": "0"
+  },
+  "contract_version": "1.0",
+  "cycles": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 4,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 4,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-06-22T20:15:00Z",
+        "cash": "35.30",
+        "cycle_id": 4,
+        "num_filled": 3,
+        "num_proposals": 4,
+        "num_rejected": 1,
+        "positions_value": "25828.80",
+        "realized_pnl": "412.85",
+        "return_pct": "3.46",
+        "strategy": "trend",
+        "total_value": "25864.10",
+        "unrealized_pnl": "451.40"
+      },
+      {
+        "as_of": "2026-06-15T20:15:00Z",
+        "cash": "35.30",
+        "cycle_id": 3,
+        "num_filled": 3,
+        "num_proposals": 4,
+        "num_rejected": 1,
+        "positions_value": "25155.45",
+        "realized_pnl": "412.85",
+        "return_pct": "0.76",
+        "strategy": "trend",
+        "total_value": "25190.75",
+        "unrealized_pnl": "451.40"
+      },
+      {
+        "as_of": "2026-06-08T20:15:00Z",
+        "cash": "35.30",
+        "cycle_id": 2,
+        "num_filled": 3,
+        "num_proposals": 4,
+        "num_rejected": 1,
+        "positions_value": "25383.00",
+        "realized_pnl": "412.85",
+        "return_pct": "1.67",
+        "strategy": "trend",
+        "total_value": "25418.30",
+        "unrealized_pnl": "451.40"
+      },
+      {
+        "as_of": "2026-06-01T20:15:00Z",
+        "cash": "35.30",
+        "cycle_id": 1,
+        "num_filled": 3,
+        "num_proposals": 4,
+        "num_rejected": 1,
+        "positions_value": "24964.70",
+        "realized_pnl": "412.85",
+        "return_pct": "0.00",
+        "strategy": "trend",
+        "total_value": "25000.00",
+        "unrealized_pnl": "451.40"
+      }
+    ]
+  },
+  "equity_history": {
+    "available": true,
+    "message": "No official cohort observations exist for this sleeve, so its equity history is drawn from its own recorded valuation cycles.",
+    "page": {
+      "available": 4,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 4,
+      "truncated": false
+    },
+    "points": [
+      {
+        "as_of": "2026-06-01T20:15:00Z",
+        "session_date": null,
+        "source": "evaluation-cycle",
+        "total_value": "25000.00"
+      },
+      {
+        "as_of": "2026-06-08T20:15:00Z",
+        "session_date": null,
+        "source": "evaluation-cycle",
+        "total_value": "25418.30"
+      },
+      {
+        "as_of": "2026-06-15T20:15:00Z",
+        "session_date": null,
+        "source": "evaluation-cycle",
+        "total_value": "25190.75"
+      },
+      {
+        "as_of": "2026-06-22T20:15:00Z",
+        "session_date": null,
+        "source": "evaluation-cycle",
+        "total_value": "25864.10"
+      }
+    ],
+    "source": "evaluation-cycle"
+  },
+  "generated_at": "2026-08-12T21:30:00Z",
+  "identity": {
+    "cohort_id": null,
+    "created_at": "2026-03-02T14:00:00Z",
+    "lifecycle": {
+      "actionable": false,
+      "historical": false,
+      "label": "",
+      "lifecycle": "active",
+      "reason": "",
+      "reference": "",
+      "superseded_by": null
+    },
+    "name": "legacy-trend",
+    "namespace_id": "425ec6fac0b951e21bd4c2827515a3e02414fd07f993db919ba9922bf38bb098",
+    "original_name": "legacy-trend",
+    "scope": "legacy",
+    "sleeve_id": "ba7aae75d2856777f50652b3bb674ced4678f0869aa9d8e406439ecd000ef6c6",
+    "strategy": "trend"
+  },
+  "lineage": {
+    "cohort_id": null,
+    "cohort_start_session": null,
+    "configuration_hash": null,
+    "namespace_id": "425ec6fac0b951e21bd4c2827515a3e02414fd07f993db919ba9922bf38bb098",
+    "notes": [],
+    "run_ids": [],
+    "snapshot_ids": {},
+    "strategy_hashes": []
+  },
+  "observations": {
+    "available": true,
+    "message": "No official observations are recorded for this sleeve yet.",
+    "page": {
+      "available": 0,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 0,
+      "truncated": false
+    },
+    "rows": []
+  },
+  "performance": {
+    "as_of": "2026-06-22T20:15:00Z",
+    "available": true,
+    "cycles": 4,
+    "first_recorded_at": "2026-06-01T20:15:00Z",
+    "latest_value": "25864.10",
+    "max_drawdown_pct": "0.89",
+    "message": null,
+    "realized_pnl": "412.85",
+    "sharpe": "0.81",
+    "starting_capital": "25000",
+    "total_return_pct": "3.46",
+    "trades_filled": 27
+  },
+  "positions": {
+    "as_of": "2026-08-12T21:30:00Z",
+    "available": true,
+    "mark_note": "No current mark is recorded for this position, and this view never requests a quote. Cost basis is exact; market value and unrealized P&L are unavailable.",
+    "message": null,
+    "rows": [
+      {
+        "average_cost": "551.2000",
+        "cost_basis": "16536.0000",
+        "cost_basis_weight": "0.6555739245233649306009824094",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 30,
+        "symbol": "SPY",
+        "unrealized_pnl": null
+      },
+      {
+        "average_cost": "482.6500",
+        "cost_basis": "8687.7000",
+        "cost_basis_weight": "0.3444260754766350693990175906",
+        "mark_status": "unavailable",
+        "market_value": null,
+        "quantity": 18,
+        "symbol": "QQQ",
+        "unrealized_pnl": null
+      }
+    ],
+    "total_cost_basis": "25223.7000"
+  },
+  "read_only": true,
+  "recorded_valuation": {
+    "as_of": "2026-06-22T20:15:00Z",
+    "available": true,
+    "benchmark_value": null,
+    "cash": "35.30",
+    "message": "No official cohort observation has been recorded, so this is the sleeve's own last valuation cycle.",
+    "positions_value": "25828.80",
+    "realized_pnl": "412.85",
+    "return_pct": "3.46",
+    "return_pct_basis": "percent",
+    "session_date": null,
+    "source": "evaluation-cycle",
+    "status": null,
+    "total_equity": "25864.10",
+    "unrealized_pnl": "451.40"
+  },
+  "runs": {
+    "available": false,
+    "message": "This sleeve is not a member of an official cohort, so no scheduled cohort runs reference it.",
+    "page": null,
+    "rows": []
+  },
+  "simulated_orders": {
+    "available": true,
+    "message": null,
+    "page": {
+      "available": 1,
+      "has_more": false,
+      "limit": 50,
+      "offset": 0,
+      "returned": 1,
+      "truncated": false
+    },
+    "rows": [
+      {
+        "as_of": "2026-06-22T20:15:00Z",
+        "fill_price": "482.6500",
+        "filled_at": "2026-06-22T20:15:00Z",
+        "limit_price": "483.0000",
+        "paper_order_id": 54,
+        "quantity": 18,
+        "reason": null,
+        "side": "BUY",
+        "status": "filled",
+        "symbol": "QQQ"
+      }
+    ]
+  },
+  "strategy": {
+    "available": true,
+    "benchmark_symbol_or_sleeve": null,
+    "configuration_hash": null,
+    "data_requirements": [],
+    "decision_frequency": "",
+    "decision_time": "",
+    "factor": "",
+    "implementation_name": null,
+    "leverage_allowed": null,
+    "long_only": null,
+    "message": "This sleeve predates versioned strategy definitions, so its full parameters were never recorded. It is labelled non-reproducible rather than shown with invented values.",
+    "parameters": {},
+    "reproducible": false,
+    "strategy": "trend",
+    "strategy_id": null,
+    "strategy_version": null,
+    "universe": [
+      "SPY",
+      "QQQ",
+      "IWM"
+    ],
+    "universe_definition": null
+  },
+  "warnings": []
+}

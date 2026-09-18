@@ -1,0 +1,14 @@
+title = "SchwabAPI Portfolio secret detection"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+
+[[rules.allowlists]]
+description = "Methodology enum lookup, not a credential; match only this exact assignment."
+condition = "AND"
+regexTarget = "secret"
+paths = ['''src[/\\]schwab_trader[/\\]execution_timing\.py$''']
+regexes = ['''^MARK_TO_CLOSE_V1(?:\.key)?$''']

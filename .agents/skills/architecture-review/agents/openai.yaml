@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Review"
+  short_description: "Review a design or plan before implementation starts"
+  default_prompt: "Use $architecture-review to review the selected plan without implementing it."

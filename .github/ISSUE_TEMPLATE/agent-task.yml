@@ -1,0 +1,85 @@
+name: Agent task
+description: Define a claimable task for a Codex, Claude, or human development session.
+title: "[Task]: "
+labels:
+  - enhancement
+  - agent:ready
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, account identifiers, tokens, callback URLs, or local data.
+        Invoke the `github-task` skill before claiming this task.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What concrete outcome should exist when this task is complete?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List the observable conditions that must all be true.
+    validations:
+      required: true
+  - type: textarea
+    id: allowed_scope
+    attributes:
+      label: Allowed scope
+      description: List the behavior, files, and artifacts this task may change.
+    validations:
+      required: true
+  - type: textarea
+    id: prohibited
+    attributes:
+      label: Prohibited changes
+      description: State adjacent work and systems that must not be changed.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Include prerequisite Issues/PRs and machine or external requirements.
+      placeholder: "None; a clean checkout is sufficient."
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: File ownership or expected areas
+      description: Identify likely shared files so overlapping claims are visible.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Required verification
+      description: List exact or proportional tests, lint, type, build, and manual checks.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk level
+      description: Select the highest applicable risk.
+      options:
+        - Coordination/docs only
+        - Application behavior, no live path
+        - Read-only broker/account path
+        - Live trading or mandatory safety gate
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Coordination acknowledgement
+      options:
+        - label: Claim only from `agent:ready` in an isolated branch and worktree.
+          required: true
+        - label: Do not include secrets, protected local state, or production data.
+          required: true
+        - label: Do not self-review or self-merge.
+          required: true
